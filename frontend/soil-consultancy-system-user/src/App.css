@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-image: url(./assets/bg1.jpg);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x:hidden;
+}
+
+
+.home{
+  background-image: url(./assets/background.jpg);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top:0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Card{
+  max-width: 30%;
+  height: 150px;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+
+.formPage{
+  background-color: aquamarine;
+  background-size: cover;
+}
+
+.submit{
+  margin-top: 10;
+}

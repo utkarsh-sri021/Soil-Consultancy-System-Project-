@@ -1,0 +1,28 @@
+CREATE KEYSPACE soilks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': '3'};
+
+CREATE TABLE soilks.report (
+    reportid uuid PRIMARY KEY,
+    boron float,
+    calcium float,
+    chlorine float,
+    copper float,
+    crop text,
+    date date,
+    email text,
+    iron float,
+    magnesium float,
+    manganese float,
+    molybdenum float,
+    nickel float,
+    nitrogen float,
+    phosphor float,
+    potassium float,
+    sulphur float,
+    zinc float
+);
+
+CREATE TABLE soilks.customer_details (
+    customeremail text PRIMARY KEY,
+    customer_first_name text,
+    customer_last_name text
+);
